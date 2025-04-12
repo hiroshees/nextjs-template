@@ -2,12 +2,12 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "yoavbls.pretty-ts-errors", // not
-    "bradlc.vscode-tailwindcss", // not
-    "stivo.tailwind-fold", // not
-    "usernamehw.errorlens", // not
+    "yoavbls.pretty-ts-errors",
+    "bradlc.vscode-tailwindcss",
+    "stivo.tailwind-fold",
+    "usernamehw.errorlens",
     "oderwat.indent-rainbow",
-    "formulahendry.auto-rename-tag", // not
+    "formulahendry.auto-rename-tag",
     "Prisma.prisma"
   ]
 }
