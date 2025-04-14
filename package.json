@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
+    "format": "prettier --check src",
+    "format:fix": "prettier --write src",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

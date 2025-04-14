@@ -204,5 +204,5 @@ export default tseslint.config(
       'perfectionist/sort-object-types': 'warn', // Object 型のプロパティの並び順をアルファベット順に統一
     },
   },
-  prettierConfig // Prettierとの競合防止
+  prettierConfig, // Prettierとの競合防止
 );
