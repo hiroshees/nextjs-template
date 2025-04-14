@@ -46,5 +46,8 @@
   "tailwind-fold.autoFold": true,
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.preferences.importModuleSpecifier": "non-relative"
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "eslint.options": {
+    "overrideConfigFile": "eslint.config.mjs"
+  }
 }
