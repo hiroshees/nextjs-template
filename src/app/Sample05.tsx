@@ -1,6 +1,6 @@
 export function Orange() {
   return (
-    <div className="flex min-h-screen flex-col items-center m-4 justify-center py-2">
+    <div className="m-4 flex min-h-screen flex-col items-center justify-center py-2">
       this is orange
     </div>
   );

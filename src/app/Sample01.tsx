@@ -54,6 +54,6 @@ export function Sample01() {
   );
 }
 
-export const Melon = () => {
-  return <div>this is melon</div>;
-};
+export function Melon() {
+  return <div>this is melon2</div>;
+}
