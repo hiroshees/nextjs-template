@@ -8,7 +8,7 @@
   "editor.formatOnType": false,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
-  "editor.rulers": [200], //
+  "editor.rulers": [200],
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   //"editor.wordWrap": "off",
@@ -46,5 +46,8 @@
   "tailwind-fold.autoFold": true,
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.preferences.importModuleSpecifier": "non-relative"
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "eslint.options": {
+    "overrideConfigFile": "eslint.config.mjs"
+  }
 }
