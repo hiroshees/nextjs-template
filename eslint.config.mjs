@@ -25,7 +25,7 @@ export default tseslint.config(
   },
   {
     // 無視するファイル
-    ignores: ['**/.next/**/*'],
+    ignores: ['**/.next/**/*', 'eslint.config.mjs', 'postcss.config.mjs'],
   },
   eslint.configs.recommended,
   tseslint.configs.strictTypeChecked,

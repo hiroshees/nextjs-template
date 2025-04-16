@@ -3,6 +3,7 @@
     "source.addMissingImports": "explicit",
     "source.fixAll.eslint": "explicit"
   },
+  "files.eol": "\n",
   "eslint.runtime": "node",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnType": false,
