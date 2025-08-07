@@ -1,46 +1,16 @@
 {
   "name": "nextjs-template",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "format": "prettier --check src",
-    "format:fix": "prettier --write src",
-    "typecheck": "tsc --noEmit",
-    "prepare": "husky"
+  "version": "1.0.0",
+  "description": "nextjs template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroshees/nextjs-template.git"
   },
-  "dependencies": {
-    "next": "15.3.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+  "keywords": [],
+  "author": "Hiroshi Fujiwara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiroshees/nextjs-template/issues"
   },
-  "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@eslint/js": "^9.24.0",
-    "@tailwindcss/postcss": "^4",
-    "@types/eslint": "^9.6.1",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@typescript-eslint/eslint-plugin": "^8.29.1",
-    "@typescript-eslint/parser": "^8.29.1",
-    "eslint": "^9.24.0",
-    "eslint-config-next": "15.3.0",
-    "eslint-config-prettier": "^10.1.2",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-perfectionist": "^4.11.0",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-unused-imports": "^4.1.4",
-    "husky": "^9.1.7",
-    "lint-staged": "^15.5.1",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4",
-    "typescript": "^5",
-    "typescript-eslint": "^8.29.1"
-  }
+  "homepage": "https://github.com/hiroshees/nextjs-template#readme"
 }
