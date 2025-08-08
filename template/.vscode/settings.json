@@ -49,7 +49,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "eslint.options": {
-    "overrideConfigFile": "eslint.config.js"
+    "overrideConfigFile": "eslint.config.mjs"
   },
   // Windows GitBash
   "terminal.integrated.defaultProfile.windows": "Git Bash",
