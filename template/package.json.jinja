@@ -16,7 +16,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typecheck": "tsc --skipLibCheck true --noEmit",
+    "typecheck:full": "tsc --skipLibCheck false --noEmit"
   },
   "dependencies": {
     "react": "19.1.0",

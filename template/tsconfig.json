@@ -4,8 +4,8 @@
     // 差分型チェック（`.tsbuildinfo` を使ってビルドを高速化）
     "incremental": true,
     /* .tsbuildinfo 増分コンパイルファイルのパスを指定します。 */
-    "tsBuildInfoFile": "./.tsbuildinfo",
-
+    "tsBuildInfoFile": "./dist/.tsbuildinfo",
+    
     /* 言語と環境 */
     // トランスパイル先の構文レベル（最新構文を許可）
     "target": "ES2022",
@@ -39,6 +39,7 @@
     /* Emit */
     // トランスパイル結果（.js）を出力しない（型チェック専用）
     "noEmit": true,
+    // 念のために出力フォルダの指定
     "outDir": "dist",
 
     /* システム連携の制約事項 */
