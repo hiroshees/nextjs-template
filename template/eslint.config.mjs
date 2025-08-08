@@ -162,7 +162,7 @@ const eslintConfig = tseslint.config(
     },
   },
   // Prettierとの競合防止
-  prettierConfig
+  prettierConfig,
 );
 
 export default eslintConfig;
