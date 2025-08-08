@@ -5,7 +5,7 @@
     "incremental": true,
     /* .tsbuildinfo 増分コンパイルファイルのパスを指定します。 */
     "tsBuildInfoFile": "./dist/.tsbuildinfo",
-    
+
     /* 言語と環境 */
     // トランスパイル先の構文レベル（最新構文を許可）
     "target": "ES2022",
@@ -70,16 +70,7 @@
   },
 
   /* 型チェックの対象ファイル */
-  "include": [
-    "eslint.config.mjs", // ESLint 設定ファイル
-    "next-env.d.ts", // Next.js 環境用型定義ファイル（必須）
-    "**/*.ts", // すべての TypeScript ファイル
-    "**/*.tsx", // JSX を含む TypeScript ファイル
-    "**/*.cjs", // CommonJS 形式の JS ファイル
-    "**/*.js", // 通常の JavaScript ファイル
-    ".next/types/**/*.ts", // Next.js の内部型定義
-    "postcss.config.mjs" // PostCSS 設定ファイル
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 
   /* 除外するファイル */
   "exclude": ["node_modules", ".next", "dist"] // npm の依存ファイルは除外（重いので）
